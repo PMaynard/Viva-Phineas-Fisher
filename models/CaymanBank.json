@@ -1,0 +1,171 @@
+{
+	"name": "CaymanBank",
+	"version": "2.2",
+	"domain": "mitre-enterprise",
+	"description": "",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"Windows",
+			"Linux",
+			"macOS"
+		]
+	},
+	"sorting": 0,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1134",
+			"tactic": "defense-evasion",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1134",
+			"tactic": "privilege-escalation",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1123",
+			"tactic": "collection",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1115",
+			"tactic": "collection",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1213",
+			"tactic": "collection",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1005",
+			"tactic": "collection",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1114",
+			"tactic": "collection",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1190",
+			"tactic": "initial-access",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1133",
+			"tactic": "persistence",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1133",
+			"tactic": "initial-access",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1056",
+			"tactic": "collection",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1056",
+			"tactic": "credential-access",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1086",
+			"tactic": "execution",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1113",
+			"tactic": "collection",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1166",
+			"tactic": "privilege-escalation",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1166",
+			"tactic": "persistence",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1125",
+			"tactic": "collection",
+			"color": "#fdd0a2",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ff6666",
+			"#ffe766",
+			"#8ec843"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true
+}
